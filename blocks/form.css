@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/* =====================
+   RESET / GLOBAL
+===================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #ffffff, #96BBFA);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 8%;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+  color: #0583D2;
+  letter-spacing: 0.1em;
+}
+
+/* =====================
+   FORM LOGIN
+===================== */
+.form {}
+
+.form__input {
+  margin-bottom: 3%;
+  padding: 3%;
+  width: 100%;
+}
+
+.form__button {
+  background-color: #0583D2;
+  color: white;
+  border: none;
+  margin-top: 5%;
+  padding: 3%;
+  width: 100%;
+}
+
+.form__button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.form__button-signUp
+{
+    background-color: #34A853;
+    color: white;
+    border: none;
+    margin-top: 5%;
+    padding: 3%;
+    width: 100%;
+    margin-top: 0px;
+}
+.form__two-button
+{
+    background-color: #34A853;
+    color: white;
+    border: none;
+    margin-top: 5%;
+    padding: 3%;
+    width: 100%;
+}
+
+.form__text {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+}
+
+.form__text span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+/* =====================
+   FORM CREATE ACCOUNT
+===================== */
+#create-acct {
+  display: none;
+}
+
+.form__two {}
+
+.form__two-inputs {
+  margin-bottom: 3%;
+  padding: 3%;
+  width: 100%;
+}
+
+.form__two-buttons {
+  background-color: #0583D2;
+  color: white;
+  border: none;
+  margin-top: 5%;
+  padding: 3%;
+  width: 100%;
+}
+
+.form__two-buttons:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+/* =====================
+   BUTTONS ESPECIALES
+===================== */
+#sign-up {
+  border: none;
+}
+
+#return-btn {
+  background: none;
+  color: grey;
+  text-decoration: underline;
+  border: none;
+  margin-top: 3%;
+  display: flex;
+  justify-self: center;
+}
